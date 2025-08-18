@@ -1,0 +1,80 @@
+.fs-80 {
+  font-size: 80px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.bg-hero {
+  width: 800px;
+  height: auto;
+  z-index: -1;
+}
+.story {
+  background: linear-gradient(to top, $natural-95 25%, transparent 25%);
+  background-color: $white;
+}
+.swiper-slide img {
+  height: 500px;
+}
+
+.work-hover {
+  .work {
+    background-color: #141a1f80;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+  }
+}
+.work-hover:hover {
+  .work {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+.partner {
+  background-image: url("../assets/images/index/gradient-ball.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% + 100px) calc(50% + 180px);
+  background-size: 800px;
+}
+
+.QA {
+  background-image: url("../images/index/bg-grid.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide img {
+    min-width: 320px;
+    height: 400px;
+  }
+  .bg-hero {
+    width: 560px;
+    height: auto;
+  }
+  .partner {
+    background-position: calc(100% + 160px) calc(50% + 286px);
+    background-size: 400px;
+  }
+  // .partner-bg-img {
+  //   overflow: hidden;
+  //   width: 400px;
+  //   height: auto;
+  //   bottom: -160px;
+  //   right: -160px;
+  //   z-index: -1;
+  // }
+  .service-procedure {
+    .card {
+      min-width: 300px;
+    }
+  }
+}
