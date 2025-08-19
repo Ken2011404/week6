@@ -43,7 +43,10 @@
   background-position: calc(100% + 100px) calc(50% + 180px);
   background-size: 800px;
 }
-
+.line-border {
+  border-bottom: 1px solid $natural-85;
+  width: 70%;
+}
 .QA {
   background-image: url("../images/index/bg-grid.png");
   background-repeat: repeat;
